@@ -26,6 +26,7 @@ h2.titulo{
     font-size: 28px;
     text-align: center;
 }
+
 h2.titulo span{
     color:cyan;
 }
@@ -38,10 +39,11 @@ h2.titulo span{
     border-radius: 30px;
     border:0;
 }
-  button:hover, form .btn-enviar input:hover{
+
+button:hover, form .btn-enviar input:hover{
     box-shadow: 0px 0px 8px cyan;
     transform: scale(1.05);
-    transition: 1s;
+    transition: 1.5s;
 }
 
 /* cabecalho */
@@ -50,7 +52,7 @@ header {
     padding: 40px 4%;
 }
 
-header>.Interface {
+header .Interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,7 +68,6 @@ header a {
 header a:hover{
     color:white;
     transform: scale(1.05);
-   
 }
 
 header nav ul {
@@ -123,6 +124,7 @@ section.topo-site .flex{
 }
 
 /* Especialidades */
+
 section .especialidades{
     padding:100px 4%;
 }
@@ -172,6 +174,7 @@ section.sobre .flex{
 .sobre .txt-sobre h2{
     font-size: 30px;
 }
+
 .sobre .txt-sobre h2 span{
     color:cyan;
     display: block;
@@ -184,7 +187,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -198,7 +201,7 @@ section.sobre .flex{
 
 section.portifolio{
     padding: 100px 4%;
-    box-shadow: 0 0 40px 10px rgba(39, 34, 34, 0.363);
+    box-shadow: 0 0 40px 10px rgba(68, 67, 67, 0.562);
 }
 
 section.portifolio .flex{
@@ -278,7 +281,7 @@ form textarea{
 }
 
 form .btn-enviar{
-    margin: 20px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -289,4 +292,32 @@ form .btn-enviar input{
     font-weight: 700;
     cursor: pointer;
     transition: 1.2s;
+}
+
+/* RODAPÉ */
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px rgba(39, 34, 34, 0.363);
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid cyan;
+}
+
+footer .line-footer p i{
+    color:cyan;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: white;
 }
