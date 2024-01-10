@@ -25,7 +25,8 @@ h2.titulo{
     color:white;
     font-size: 28px;
     text-align: center;
-}
+} 
+
 h2.titulo span{
     color:cyan;
 }
@@ -38,7 +39,8 @@ h2.titulo span{
     border-radius: 30px;
     border:0;
 }
-  button:hover{
+
+button:hover{
     box-shadow: 0px 0px 8px cyan;
     transform: scale(1.05);
     transition: 1s;
@@ -152,6 +154,7 @@ section.especialidades .flex{
 .especialidades .especialidades-box h3{
     font-size: 28px;
     margin:15px 0;
+
 }
 
 /* estilo sobre */
@@ -188,17 +191,19 @@ section.sobre .flex{
 .sobre .txt-sobre p{
     line-height: 30px;
     margin: 20px 0;
+    text-align: justify;
 }
 
-
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
     border: 0;
     background-color: cyan;
-    font-size: 40px;
+    font-size: 22px;
     cursor: pointer;
+    margin: 0 5px;
+    transition: 2s;
 }
 
 /* ESTILO PORTIFOLIO */
@@ -250,7 +255,77 @@ section.portifolio .flex{
     opacity: 1;
 }
 
+/* FORMULARIO */
 
+section.formulario{
+    padding: 100px 4%;
+}
 
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
 
+form input, form textarea{
+    width: 100%;
+    background-color: rgb(82, 79, 79);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}
 
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: cyan;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    transition: 1.2s;
+}
+
+/* RODAPÉ */
+
+footer{
+    padding: 100px 4%;
+    box-shadow: 0 0 40px 10px  rgba(54, 54, 54, 0.582);
+}
+
+footer .flex{
+    justify-content:space-between; 
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.borda{
+    border-top: 2px solid cyan;
+}
+
+footer .line-footer p i{
+    color: cyan;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: white;
+    font-size: 10px;
+}
