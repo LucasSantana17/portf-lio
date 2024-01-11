@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
@@ -21,26 +21,26 @@ body {
     padding: 50px;
 }
 
-h2.titulo{
-    color:white;
+h2.titulo {
+    color: white;
     font-size: 28px;
     text-align: center;
-} 
+}
 
-h2.titulo span{
-    color:cyan;
+h2.titulo span {
+    color: cyan;
 }
 
 .btn-contato button {
     cursor: pointer;
     padding: 10px 40px;
     font-weight: 600;
-    background-color:cyan;
+    background-color: cyan;
     border-radius: 30px;
-    border:0;
+    border: 0;
 }
 
-button:hover{
+button:hover {
     box-shadow: 0px 0px 8px cyan;
     transform: scale(1.05);
     transition: 1s;
@@ -61,14 +61,14 @@ header .Interface {
 header a {
     color: rgb(74, 72, 72);
     text-decoration: none;
-    display: inline-block; 
+    display: inline-block;
     transition: 1s;
 }
 
-header a:hover{
-    color:white;
+header a:hover {
+    color: white;
     transform: scale(1.05);
-   
+
 }
 
 header nav ul {
@@ -83,23 +83,24 @@ header nav ul li {
 
 /* estilos main topo do site */
 
-section.topo-site{
+section.topo-site {
     padding: 40px 4%;
 }
 
-section.topo-site .flex{
+section.topo-site .flex {
     align-items: center;
     justify-content: center;
     gap: 60px;
 }
 
-.topo-site .txt-topo-site h1{
+
+.topo-site h1 {
     color: white;
     font-size: 30px;
     line-height: 30px;
 }
 
-.topo-site h1 span{
+.topo-site .txt-topo-site h1 span {
     color: cyan;
 }
 
@@ -109,32 +110,33 @@ section.topo-site .flex{
     width: 700px;
 }
 
-.topo-site .img-top-site img{
+.topo-site .img-top-site img {
     position: relative;
     animation: flutuar 2.5s ease-in-out infinite alternate;
 }
 
 @keyframes flutuar {
-    0%{
-        top:0;
+    0% {
+        top: 0;
 
     }
-    100%{
+
+    100% {
         top: 30px;
     }
 }
 
 /* Especialidades */
-section .especialidades{
-    padding:100px 4%;
+section .especialidades {
+    padding: 100px 4%;
 }
 
-section.especialidades .flex{
+section.especialidades .flex {
     gap: 60px;
 }
 
-.especialidades .especialidades-box{
-    color:white;
+.especialidades .especialidades-box {
+    color: white;
     padding: 40px;
     margin-top: 45px;
     border-radius: 20px;
@@ -142,59 +144,59 @@ section.especialidades .flex{
     transition: 1s;
 }
 
-.especialidades .especialidades-box:hover{
+.especialidades .especialidades-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 8px rgb(158, 154, 154);
 }
 
-.especialidades .especialidades-box i{
+.especialidades .especialidades-box i {
     font-size: 60px;
 }
 
-.especialidades .especialidades-box h3{
+.especialidades .especialidades-box h3 {
     font-size: 28px;
-    margin:15px 0;
+    margin: 15px 0;
 
 }
 
 /* estilo sobre */
 
-section.sobre{
+section.sobre {
     padding: 100px 4%;
 }
 
-section.sobre .flex{
+section.sobre .flex {
     align-items: center;
     gap: 60px;
 }
 
-.sobre .txt-sobre{
+.sobre .txt-sobre {
     color: white;
 }
 
-.sobre .txt-sobre h2{
+.sobre .txt-sobre h2 {
     font-size: 30px;
 }
 
-.sobre .txt-sobre h2 span{
-    color:cyan;
+.sobre .txt-sobre h2 span {
+    color: cyan;
     display: block;
     line-height: 40px;
     margin-bottom: 40px;
 }
 
-.sobre .txt-sobre{
+.sobre .txt-sobre {
     margin: 20px 0;
     text-align: justify;
 }
 
-.sobre .txt-sobre p{
+.sobre .txt-sobre p {
     line-height: 30px;
     margin: 20px 0;
     text-align: justify;
 }
 
-.btn-social button{
+.btn-social button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -208,17 +210,17 @@ section.sobre .flex{
 
 /* ESTILO PORTIFOLIO */
 
-section.portifolio{
+section.portifolio {
     padding: 100px 4%;
     box-shadow: 0 0 40px 10px rgba(54, 54, 54, 0.582);
 }
 
-section.portifolio .flex{
+section.portifolio .flex {
     justify-content: space-around;
     margin-top: 60px;
 }
 
-.img-port{
+.img-port {
     width: 360px;
     height: 460px;
     background-size: cover;
@@ -229,11 +231,11 @@ section.portifolio .flex{
     position: relative;
 }
 
-.img-port:hover{
+.img-port:hover {
     background-position: 100% 100%;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -251,17 +253,17 @@ section.portifolio .flex{
     transition: .5s;
 }
 
-.overlay:hover{
+.overlay:hover {
     opacity: 1;
 }
 
 /* FORMULARIO */
 
-section.formulario{
+section.formulario {
     padding: 100px 4%;
 }
 
-form{
+form {
     max-width: 500px;
     margin: 0 auto;
     display: flex;
@@ -271,7 +273,8 @@ form{
     margin-top: 40px;
 }
 
-form input, form textarea{
+form input,
+form textarea {
     width: 100%;
     background-color: rgb(82, 79, 79);
     border: 0;
@@ -282,17 +285,17 @@ form input, form textarea{
     font-size: 15px;
 }
 
-form textarea{
+form textarea {
     resize: none;
     max-height: 200px;
 }
 
-form .btn-enviar{
+form .btn-enviar {
     margin-top: 20px;
     text-align: center;
 }
 
-form .btn-enviar input{
+form .btn-enviar input {
     width: 120px;
     background-color: cyan;
     font-weight: 600;
@@ -303,29 +306,150 @@ form .btn-enviar input{
 
 /* RODAPÉ */
 
-footer{
+footer {
     padding: 100px 4%;
-    box-shadow: 0 0 40px 10px  rgba(54, 54, 54, 0.582);
+    box-shadow: 0 0 40px 10px rgba(54, 54, 54, 0.582);
 }
 
-footer .flex{
-    justify-content:space-between; 
+footer .flex {
+    justify-content: space-between;
 }
 
-footer .line-footer{
+footer .line-footer {
     padding: 20px 0;
 }
 
-.borda{
+.borda {
     border-top: 2px solid cyan;
 }
 
-footer .line-footer p i{
+footer .line-footer p i {
     color: cyan;
     font-size: 22px;
 }
 
-footer .line-footer p a{
+footer .line-footer p a {
     color: white;
     font-size: 10px;
+}
+
+@media screen and (max-width: 1030px) {
+
+    /* CLASSE GERAL */
+    .flex {
+        flex-direction: column;
+    }
+
+    section.topo-site .flex {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    /* CABECALHO */
+    .manu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /* TOPO DO SITE */
+
+    section.topo-site .flex {
+        gap: 50px;
+    }
+
+    section.topo-site {
+        padding: 10px 8%;
+    }
+
+    .topo-site h1 {
+        font-size: 30px;
+        line-height: 30px;
+        display: block;
+    }
+
+    .topo-site p {
+        display: block;
+        max-width: 250px;
+    }
+
+    .topo-site .txt-topo-site {
+        display: flex;
+        max-width: 300px;
+        text-align: left;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /* Especialidades */
+    section.especialidades {
+        padding: 50px 2%;
+    }
+
+    h2.titulo {
+        font-size: 20px;
+    }
+
+    section.especialidades .flex {
+        gap: 20px;
+    }
+
+    /* SOBRE */
+    section.sobre {
+        padding: 50px 4%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 20px;
+    }
+
+    /* ESTILO PORTIFOLIO */
+
+    section.portifolio {
+        padding: 50px 4%;
+        box-shadow: 0 0 40px 10px rgba(54, 54, 54, 0.582);
+    }
+
+    .sobre .txt-sobre p {
+        line-height: 30px;
+        margin: 20px 0;
+        width: 300px;
+        text-align: left;
+    }
+
+    /* ESTILO PORTIFOLIO */
+
+    section.portifolio {
+        padding: 50px 1%;
+        box-shadow: 0 0 40px 10px rgba(54, 54, 54, 0.582);
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        height: 460px;
+        margin: 0 auto;
+    }
+
+    section.portifolio .flex {
+        gap: 40px;
+    }
+
+
+    /* FORMULARIO */
+
+    section.formulario {
+        padding: 50px 1%;
+    }
+
+    /* RODAPÉ */
+
+    footer {
+        padding: 50px 4%;
+        box-shadow: 0 0 40px 10px rgba(54, 54, 54, 0.582);
+    }
+
+    footer .line-footer a{
+        padding: 10px ;
+    }
+
 }
